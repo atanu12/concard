@@ -1,0 +1,57 @@
+.hero-section{
+   .carousel{
+       .carousel-indicators{
+           li{
+               height: 10px;
+               width: 10px;
+               border-radius: 50%;
+               border: 10px solid $s-color;
+           }
+       }
+       .carousel-inner{
+        .carousel-item {
+            position: relative;
+            img{
+               height: 90vh;
+               width: 100%; 
+               object-fit: cover;     
+            }
+            .carousel-caption{
+                text-align: left;
+                top: 40%;
+                text-transform: uppercase;
+                h2{
+                   font-size: 1.5em;
+                   font-weight: 300;
+                   letter-spacing: .3em;
+                   @media(max-width:686px) {
+                    font-size: 1em;
+                }
+                    span{
+                        margin: 20px 0px;
+                        font-size: 4em;
+                        font-weight: 600;
+                        @media(max-width:686px) {
+                            font-size: 2em;
+                        }
+                    }
+                }
+            }
+            
+        }
+        .carousel-item::after{
+            content:'';
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            background:linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.712));
+        }
+        
+            
+        }
+    }
+} 
+
+

@@ -1,0 +1,19 @@
+.nav-section{
+    .navbar-brand{
+        img{
+            height: 55px;
+        }
+    }
+
+    .navbar-nav{
+        .nav-item{
+            text-transform: uppercase;
+            .nav-link{
+                font-size: 1.1em;
+                font-weight: 600;
+                color:  $primary-color;
+                margin-right: 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,98 @@
+.partner-section{
+    background: url('https://images.pexels.com/photos/4033148/pexels-photo-4033148.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+
+    color: #fff;
+    
+    .become-partner{
+        background: linear-gradient(rgba(51, 112, 226, 0.781),rgb(4, 92, 255));
+        object-fit: cover;
+        .row{
+            .partner-left{
+                display: flex;
+                justify-content: center;
+                padding: 2em 0;
+                margin: 5em 0;
+                @media(max-width:500px){
+                    div{
+                        img{
+                            height: 350px;
+                        }
+                    }
+                }
+            }
+            
+
+            .partner-right{
+                background: linear-gradient(rgba(51, 112, 226, 0.781),rgb(4, 92, 255));
+
+                padding: 3em ;
+                .form-box{
+                    div{
+                        margin: 20px;
+                        input{
+                            width: 30vw;
+                            border: none;
+                            border-bottom: 1px solid #fff;
+                            background: transparent;
+                            margin: 0 20px;
+                            font-size: 1.2em;
+                            padding: 1em 0;
+                            outline: none;
+                             
+                            @media(max-width:960px){
+                                width: 300px;
+                            }
+                            @media(max-width:765px){
+                                width: 500px;
+                            }
+                            @media(max-width:606px){
+                                width: 400px;
+                            }
+                            @media(max-width:500px){
+                                width: 70vw;
+                            }
+                        }
+                        input::placeholder{
+                            color: #fff;
+                        }
+                        textarea{
+                            width: 30vw;
+                            height: 100px;
+                           font-size: 1.2em;
+                            border: 1px solid #fff;
+                            background: transparent;
+                            margin: 0 20px;
+                            outline: none;
+                            @media(max-width:960px){
+                                width: 300px;
+                            }
+                            @media(max-width:765px){
+                                width: 500px;
+                            }
+                            @media(max-width:606px){
+                                width: 400px;
+                            }
+                            @media(max-width:500px){
+                                width: 70vw;
+                            }
+                             
+                        }
+                        textarea::placeholder{
+                            color: #fff;
+                        }
+
+                       a{
+                           color: #fff;
+                           padding: 10px 20px;
+                           outline: none;
+                       } 
+                    } div:last-child{
+                       padding: 0 2em;
+                        
+                        
+                    }
+                }
+            }
+        }
+    }
+}
