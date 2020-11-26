@@ -1,0 +1,61 @@
+.safey-section {
+    background-color: $bg-color1;
+    padding: 30px 0;
+  .safety {
+    .row {
+      .saf-left {
+        .small-img {
+          margin-right: 0 auto;
+          .thumb {
+            cursor: pointer;
+            transition: 0.3s;
+            justify-content: center;
+            align-items: center;
+            @media(max-width:580px){
+                margin: 5px;
+                width: 90px;
+            }
+            img {
+            margin: 50px auto;
+              height: 90px;
+              border: 2px solid black;
+              @media(max-width:580px){
+                margin: 10px 0;
+                height: 60px;
+            }
+            }
+            
+          }
+          .thumb:hover {
+            opacity: 1;
+          }
+        }
+        #picture {
+          height: 400px;
+          width: 460px;
+          object-fit: cover;
+          @media(max-width:480px){
+            height: 300px;
+            width: 360px;
+        }
+        }
+      }
+
+      .saf-right{
+          margin: 60px auto;
+          .saftey-head{
+              color: $primary-color;
+              h2{
+                  font-weight: 400;
+                  span{
+                      font-weight: 800;
+                  }
+              }
+          }
+          .saf-details{
+              color: $primary-color;
+          }
+      }
+    }
+  }
+}

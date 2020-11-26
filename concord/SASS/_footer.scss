@@ -1,0 +1,107 @@
+.footer-section{
+    background: $primary-color;
+    color: #fff;
+    padding: 5em 0;
+
+    .footer{
+        .row{
+           .footer-left{
+               .footer-row-one{
+                   .footer-sopport{
+                       margin-right: 20px;
+                       @media(max-width:572px){
+                        margin-right: 10px;
+                       }
+                       @media(max-width:478px){
+                        margin-right: 5px;
+                       }
+
+                   }
+               }
+               .submit-form{
+                   padding: 3em 0;
+                   .footer-form{
+                       position: relative;
+                       input{
+                           height: 80px;
+                           width: 30vw;
+                           padding: 1em 2em;
+                           outline: none;
+                           border-radius: 5px;
+                           border: none;
+                           @media(max-width:978px){
+                               width: 400px;
+                           }
+                           @media(max-width:468px){
+                            width: 300px;
+                        }
+                       }
+                       button{
+                        height: 80px;
+                           color: #fff;
+                           background: rgb(21, 21, 209);
+                           padding: 1em 3em;
+                           outline: none;
+                           border-radius: 5px;
+                           border: none;
+                           position: absolute;
+                           top: -20px;
+                           left: 50%;
+                           font-size: 1.3em;
+                           @media(max-width:468px){
+                            padding: 0 2em;
+                        }
+                       }
+                   }
+               }
+
+           } 
+
+           .footer-right{
+               .brand-img{
+                   margin-top:-40px ;
+                   @media(max-width:446px){
+                       img{
+                           height: 100px;
+                       }
+                   }
+               }
+               .footer-social-icons{
+                text-align: end;
+                @media(max-width:958px){
+                    text-align: center;
+                }
+                   .social-head{
+                       h5{
+                             font-weight: 800;
+                             @media(max-width:958px){
+                                text-align: center;
+                            }
+                       }
+                       .social-icons{
+                           margin: 1em 0;
+                           margin-right: 0;
+                           .fa{
+
+                            font-size: 3em;
+                            margin-right: .5em;
+                           }
+                           @media(max-width:958px){
+                            text-align: center;
+                        }
+                       }
+                   }
+               }
+           }
+        }
+        .copy-right{
+            .row{
+                @media (max-width:764px) {
+                    div{
+                        text-align: center!important;
+                    }
+                }
+            }
+        }
+    }
+}

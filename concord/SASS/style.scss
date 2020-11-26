@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+$primary-color:#0533aafd;
+$s-color:#E44236;
+$bg-color1:#ebf1f7;
+html,body{
+    overflow-x: hidden;
+}
+
+.btn-btn{
+    margin: 20px 0;
+    background: $primary-color;
+    letter-spacing: .1em;
+};
+
+@import './nav';
+@import './hero';
+@import './product';
+@import './safety';
+@import './clients';
+@import './certificates';
+@import './corosel';
+@import './partner';
+@import './footer';
