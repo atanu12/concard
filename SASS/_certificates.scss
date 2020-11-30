@@ -1,53 +1,17 @@
-.certificate-section{
-    margin: 5em;
-    .certificate{
-       .main-corosel{
-           padding: 3em 0;
-           justify-content: center;
-           .carousel-indicators{
-               left: 0;
-               top: 110%;
-            
-            li{
-                height: 10px;
-                width: 10px;
-                border-radius: 50%;
-                border: 10px solid $s-color;
-            }
-        }
-          .carousel-inner{
-              left: 50%;
-              
-              transform: translate(-31%, 0%);
-            .carousel-item{
-
-                img{
-                    height: 400px;
-                    width: 60%;
-                    
-                    @media(max-width:794px){
-                        height: 300px;
-                        width: 70%;
-                    }
-                    @media(max-width:600px){
-                        height: 250px;
-                        width: 70%;
-                    }
-                    @media(max-width:500px){
-                        height: 200px;
-                        width: 70%;
-                    }
-                    @media(max-width:450px){
-                        height: 150px;
-                        width: 70%;
-                    }
-                    @media(max-width:400px){
-                        height: 100px;
-                        width: 70%;
-                    }
-                }
-            }
-          } 
-       } 
+.certificate-section {
+  
+  .certificate {
+    .main-corosel {
+      padding: 3em 0;
+      justify-content: center;
+      #certificate-slider{
+          .main-corosel-certifacate{
+              margin-right: 20px;
+              img{
+                  width: 100%;
+              }
+          }
+      }
     }
+  }
 }

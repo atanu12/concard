@@ -9,12 +9,23 @@
                .footer-row-one{
                    .footer-sopport{
                        margin-right: 20px;
+                       p{
+                        @media(max-width:768px){
+                            font-size: .8em;
+                           } 
+                        @media(max-width:528px){
+                            font-size: .7em;
+                           } 
+                        @media(max-width:478px){
+                            font-size: .6em;
+                           } 
+                       }
                        @media(max-width:572px){
                         margin-right: 10px;
                        }
-                       @media(max-width:478px){
-                        margin-right: 5px;
-                       }
+                    //    @media(max-width:478px){
+                    //     margin-right: 5px;
+                    //    }
 
                    }
                }
@@ -32,8 +43,13 @@
                            @media(max-width:978px){
                                width: 400px;
                            }
-                           @media(max-width:468px){
+                           @media(max-width:488px){
                             width: 300px;
+                            height: 50px;
+                        }
+                           @media(max-width:414px){
+                            padding: 0 .3em;
+                            font-size: .8em;
                         }
                        }
                        button{
@@ -48,8 +64,15 @@
                            top: -20px;
                            left: 50%;
                            font-size: 1.3em;
-                           @media(max-width:468px){
+                           @media(max-width:488px){
                             padding: 0 2em;
+                            height: 50px;
+                        }
+                           @media(max-width:414px){
+                            font-size: 1em;
+                        }
+                           @media(max-width:368px){
+                            left: 60%;
                         }
                        }
                    }
@@ -101,6 +124,22 @@
                         text-align: center!important;
                     }
                 }
+                .cpy-left{
+                    p{
+                        color: rgb(199, 198, 198);
+                        @media(max-width:392px){
+                            font-size: .8em;
+                        }
+                    }
+                }
+                .cpy-right{
+                    h5{
+                        @media(max-width:392px){
+                            font-size: 1em;
+                        }
+                    }
+                }
+
             }
         }
     }
