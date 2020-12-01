@@ -5,7 +5,7 @@
     
     .become-partner{
         background: linear-gradient(rgba(51, 112, 226, 0.781),rgb(4, 92, 255));
-        object-fit: cover;
+        // clip-path: polygon(50% 0%, 77% 19%, 86% 42%, 83% 72%, 68% 100%, 0 100%, 0 84%, 0% 43%, 0 0);
         .row{
             .partner-left{
                 display: flex;

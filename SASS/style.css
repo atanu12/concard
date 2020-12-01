@@ -12,6 +12,7 @@ html, body {
 }
 
 .btn-btn {
+  text-transform: uppercase;
   margin: 20px 0;
   background: #0d44aafd;
   letter-spacing: .1em;
@@ -116,7 +117,7 @@ html, body {
   margin-right: 20px;
   margin-top: 20px;
   border: 3px solid #0d44aafd;
-  padding: 2em 1em;
+  padding: 1em 1em;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   border-radius: 10px;
@@ -142,15 +143,25 @@ html, body {
           box-shadow: -5px 5px 10px #0d44aafd;
 }
 
-.pro-head h1 {
+.pro-head h2 {
   color: #0d44aafd;
+  font-weight: 800;
 }
 
-.pro-head .dot {
+.pro-head .under-lines .line {
   background-color: #E44236;
   height: 5px;
-  width: 25%;
+  width: 150px;
   border-radius: 20px;
+  margin-right: 10px;
+}
+
+.pro-head .under-lines .dot {
+  background-color: #E44236;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  margin-right: 5px;
 }
 
 .safey-section {
@@ -159,19 +170,16 @@ html, body {
 }
 
 .safey-section .safety .row .saf-left .small-img {
-  margin-right: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .safey-section .safety .row .saf-left .small-img .thumb {
   cursor: pointer;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  margin-right: 10px;
 }
 
 @media (max-width: 580px) {
@@ -182,9 +190,11 @@ html, body {
 }
 
 .safey-section .safety .row .saf-left .small-img .thumb img {
-  margin: 50px auto;
-  height: 90px;
+  margin: 20px auto;
+  height: 60px;
+  width: 80px;
   border: 2px solid black;
+  padding: .5em .5em;
 }
 
 @media (max-width: 580px) {
@@ -241,8 +251,8 @@ html, body {
 }
 
 .client-section .our-client .row .client-left .cl-inn .client-img {
-  -webkit-box-shadow: 1px 2px 20px #00000021;
-          box-shadow: 1px 2px 20px #00000021;
+  -webkit-box-shadow: -20px 30px 20px #4b49493f;
+          box-shadow: -20px 30px 20px #4b49493f;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto auto auto;
@@ -254,7 +264,7 @@ html, body {
 
 .client-section .our-client .row .client-left .cl-inn .client-img .c-img {
   border: 1px solid rgba(207, 207, 238, 0.671);
-  padding: 30px;
+  padding: 40px;
 }
 
 .client-section .our-client .row .client-left .cl-inn .client-img .c-img:nth-child(-n+3) {
@@ -275,7 +285,7 @@ html, body {
 
 .client-section .our-client .row .client-left .cl-inn img {
   height: 100px;
-  width: 100%;
+  width: 100px;
   text-align: center;
   padding: 10px;
 }
@@ -290,6 +300,7 @@ html, body {
 }
 
 .client-section .our-client .row .client-right .about .about-head .about-details p {
+  margin: 20px 0;
   font-size: 1.2em;
 }
 
@@ -394,8 +405,6 @@ html, body {
 .partner-section .become-partner {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(51, 112, 226, 0.781)), to(#045cff));
   background: linear-gradient(rgba(51, 112, 226, 0.781), #045cff);
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
 .partner-section .become-partner .row .partner-left {

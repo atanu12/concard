@@ -27,7 +27,7 @@
                   margin-right: 20px;
                   margin-top: 20px;
                   border: 3px solid $primary-color;
-                  padding: 2em 1em;
+                  padding: 1em 1em;
                   flex-wrap: wrap;
                   border-radius: 10px;
                   p{
@@ -55,13 +55,26 @@
 }
 
 .pro-head {
-  h1 {
+  h2 {
     color: $primary-color;
+    font-weight: 800;
   }
-  .dot {
-    background-color: $s-color;
-    height: 5px;
-    width: 25%;
-    border-radius: 20px;
+  .under-lines{
+    
+    .line {
+      background-color: $s-color;
+      height: 5px;
+      width: 150px;
+      border-radius: 20px;
+      margin-right: 10px;
+    }
+    .dot{
+      background-color: $s-color;
+      height: 5px;
+      width: 5px;
+      border-radius: 50%;
+      margin-right: 5px;
+    }
   }
+  
 }

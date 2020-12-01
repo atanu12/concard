@@ -5,20 +5,21 @@
     .row {
       .saf-left {
         .small-img {
-          margin-right: 0 auto;
+          justify-content: center;
           .thumb {
             cursor: pointer;
             transition: 0.3s;
-            justify-content: center;
-            align-items: center;
+            margin-right: 10px;
             @media(max-width:580px){
                 margin: 5px;
                 width: 90px;
             }
             img {
-            margin: 50px auto;
-              height: 90px;
+              margin: 20px auto;
+              height: 60px;
+              width: 80px;
               border: 2px solid black;
+              padding: .5em .5em;
               @media(max-width:580px){
                 margin: 10px 0;
                 height: 60px;
